@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300">
+  <defs>
+    <linearGradient id="guitarBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b0000"/>
+      <stop offset="100%" stop-color="#4a0000"/>
+    </linearGradient>
+  </defs>
+  <!-- Neck -->
+  <rect x="92" y="10" width="16" height="150" rx="3" fill="#3a2010"/>
+  <!-- Frets -->
+  <line x1="92" y1="35" x2="108" y2="35" stroke="#c8a45e" stroke-width="0.8" opacity="0.5"/>
+  <line x1="92" y1="60" x2="108" y2="60" stroke="#c8a45e" stroke-width="0.8" opacity="0.5"/>
+  <line x1="92" y1="85" x2="108" y2="85" stroke="#c8a45e" stroke-width="0.8" opacity="0.5"/>
+  <line x1="92" y1="110" x2="108" y2="110" stroke="#c8a45e" stroke-width="0.8" opacity="0.5"/>
+  <line x1="92" y1="135" x2="108" y2="135" stroke="#c8a45e" stroke-width="0.8" opacity="0.5"/>
+  <!-- Strings -->
+  <line x1="96" y1="10" x2="96" y2="260" stroke="#ddd" stroke-width="0.5" opacity="0.3"/>
+  <line x1="100" y1="10" x2="100" y2="260" stroke="#ddd" stroke-width="0.5" opacity="0.3"/>
+  <line x1="104" y1="10" x2="104" y2="260" stroke="#ddd" stroke-width="0.5" opacity="0.3"/>
+  <!-- Head -->
+  <rect x="86" y="0" width="28" height="15" rx="4" fill="#1a1a1a" stroke="#444" stroke-width="1"/>
+  <circle cx="92" cy="7" r="3" fill="#444"/>
+  <circle cx="108" cy="7" r="3" fill="#444"/>
+  <!-- Body -->
+  <ellipse cx="100" cy="200" rx="55" ry="50" fill="url(#guitarBody)" stroke="#600" stroke-width="1"/>
+  <ellipse cx="100" cy="260" rx="60" ry="45" fill="url(#guitarBody)" stroke="#600" stroke-width="1"/>
+  <!-- Sound hole -->
+  <circle cx="100" cy="210" r="18" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+  <circle cx="100" cy="210" r="15" fill="#1a1a1a"/>
+  <!-- Bridge -->
+  <rect x="85" y="255" width="30" height="5" rx="2" fill="#3a2010"/>
+  <!-- Pickguard -->
+  <path d="M70,185 Q60,210 75,235 Q85,245 100,240 Q90,220 95,195 Z" fill="#1a1a1a" opacity="0.3"/>
+</svg>
