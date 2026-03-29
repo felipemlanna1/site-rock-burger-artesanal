@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+  <defs>
+    <linearGradient id="fireGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ff4d00"/>
+      <stop offset="50%" stop-color="#ff6b2b"/>
+      <stop offset="100%" stop-color="#ffa040"/>
+    </linearGradient>
+    <linearGradient id="fireGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4d00" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#cc3300" stop-opacity="0.4"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#ff4d00" flood-opacity="0.4"/>
+    </filter>
+    <filter id="textGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#ff4d00" flood-opacity="0.3"/>
+    </filter>
+    <filter id="subtleGlow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#ff6b2b" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Outer distressed frame -->
+  <rect x="15" y="8" width="570" height="234" rx="0" fill="none" stroke="#ff4d00" stroke-width="2.5" opacity="0.35"/>
+  <rect x="22" y="15" width="556" height="220" rx="0" fill="none" stroke="#ff4d00" stroke-width="0.8" opacity="0.2"/>
+
+  <!-- Corner rivets -->
+  <circle cx="28" cy="21" r="4" fill="#333" stroke="#ff4d00" stroke-width="1" opacity="0.5"/>
+  <circle cx="572" cy="21" r="4" fill="#333" stroke="#ff4d00" stroke-width="1" opacity="0.5"/>
+  <circle cx="28" cy="229" r="4" fill="#333" stroke="#ff4d00" stroke-width="1" opacity="0.5"/>
+  <circle cx="572" cy="229" r="4" fill="#333" stroke="#ff4d00" stroke-width="1" opacity="0.5"/>
+
+  <!-- Fire accents left -->
+  <path d="M55,210 Q60,195 55,180 Q65,190 60,175 Q70,185 65,165" fill="none" stroke="url(#fireGrad)" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+  <path d="M45,200 Q48,192 44,185 Q52,190 48,178" fill="none" stroke="#ff4d00" stroke-width="1.5" stroke-linecap="round" opacity="0.2"/>
+
+  <!-- Fire accents right -->
+  <path d="M545,210 Q540,195 545,180 Q535,190 540,175 Q530,185 535,165" fill="none" stroke="url(#fireGrad)" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+  <path d="M555,200 Q552,192 556,185 Q548,190 552,178" fill="none" stroke="#ff4d00" stroke-width="1.5" stroke-linecap="round" opacity="0.2"/>
+
+  <!-- Lightning bolt left -->
+  <path d="M80,35 L68,70 L78,70 L60,115" fill="none" stroke="url(#fireGrad)" stroke-width="3.5" stroke-linecap="round" opacity="0.45" filter="url(#subtleGlow)"/>
+  <path d="M85,40 L73,68 L82,68 L68,105" fill="none" stroke="#ffcc00" stroke-width="1" stroke-linecap="round" opacity="0.2"/>
+
+  <!-- Lightning bolt right -->
+  <path d="M520,35 L532,70 L522,70 L540,115" fill="none" stroke="url(#fireGrad)" stroke-width="3.5" stroke-linecap="round" opacity="0.45" filter="url(#subtleGlow)"/>
+  <path d="M515,40 L527,68 L518,68 L532,105" fill="none" stroke="#ffcc00" stroke-width="1" stroke-linecap="round" opacity="0.2"/>
+
+  <!-- Guitar silhouettes left -->
+  <g transform="translate(42,50) scale(0.3)" opacity="0.15">
+    <rect x="92" y="10" width="16" height="120" rx="3" fill="#ff4d00"/>
+    <ellipse cx="100" cy="170" rx="40" ry="35" fill="#ff4d00"/>
+    <ellipse cx="100" cy="210" rx="45" ry="30" fill="#ff4d00"/>
+    <circle cx="100" cy="180" r="12" fill="#0d0d0d"/>
+  </g>
+
+  <!-- Guitar silhouettes right -->
+  <g transform="translate(500,50) scale(0.3)" opacity="0.15">
+    <rect x="92" y="10" width="16" height="120" rx="3" fill="#ff4d00"/>
+    <ellipse cx="100" cy="170" rx="40" ry="35" fill="#ff4d00"/>
+    <ellipse cx="100" cy="210" rx="45" ry="30" fill="#ff4d00"/>
+    <circle cx="100" cy="180" r="12" fill="#0d0d0d"/>
+  </g>
+
+  <!-- Top decorative bar -->
+  <line x1="130" y1="48" x2="240" y2="48" stroke="url(#fireGrad)" stroke-width="1.5" opacity="0.3"/>
+  <path d="M250,43 L255,48 L250,53 L245,48 Z" fill="#ff4d00" opacity="0.4"/>
+  <line x1="265" y1="48" x2="335" y2="48" stroke="url(#fireGrad)" stroke-width="1.5" opacity="0.3"/>
+  <path d="M345,43 L350,48 L345,53 L340,48 Z" fill="#ff4d00" opacity="0.4"/>
+  <line x1="360" y1="48" x2="470" y2="48" stroke="url(#fireGrad)" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Main text: ROCK -->
+  <text x="300" y="108" font-family="Impact, 'Arial Black', sans-serif" font-size="76" fill="url(#fireGrad)" text-anchor="middle" letter-spacing="8" filter="url(#textGlow)">ROCK</text>
+
+  <!-- Glow line under ROCK -->
+  <line x1="160" y1="118" x2="440" y2="118" stroke="#ff4d00" stroke-width="0.8" opacity="0.2"/>
+
+  <!-- Secondary text: BURGER -->
+  <text x="300" y="158" font-family="Impact, 'Arial Black', sans-serif" font-size="50" fill="#ffffff" text-anchor="middle" letter-spacing="14" opacity="0.9" filter="url(#subtleGlow)">BURGER</text>
+
+  <!-- Divider with burger icon -->
+  <line x1="130" y1="175" x2="255" y2="175" stroke="#ff4d00" stroke-width="1" opacity="0.35"/>
+  <!-- Mini burger icon center -->
+  <g transform="translate(270,166) scale(0.12)">
+    <path d="M30,60 Q30,20 100,20 Q170,20 170,60 Z" fill="#d4871a"/>
+    <rect x="25" y="62" width="150" height="8" rx="4" fill="#2d8a30"/>
+    <rect x="25" y="72" width="150" height="8" rx="4" fill="#cc2020"/>
+    <path d="M22,82 L178,82 L182,92 L18,92 Z" fill="#f5b800"/>
+    <rect x="25" y="94" width="150" height="14" rx="3" fill="#5a2810"/>
+    <path d="M28,110 L172,110 Q175,110 175,114 L175,120 Q175,128 100,128 Q25,128 25,120 L25,114 Q25,110 28,110 Z" fill="#b06a10"/>
+  </g>
+  <line x1="345" y1="175" x2="470" y2="175" stroke="#ff4d00" stroke-width="1" opacity="0.35"/>
+
+  <!-- Subtitle -->
+  <text x="300" y="200" font-family="'Arial', sans-serif" font-size="14" fill="#aaaaaa" text-anchor="middle" letter-spacing="10" opacity="0.7">ARTESANAL</text>
+
+  <!-- Bottom decorative bar -->
+  <line x1="130" y1="215" x2="240" y2="215" stroke="url(#fireGrad)" stroke-width="1" opacity="0.25"/>
+  <circle cx="252" cy="215" r="2" fill="#ff4d00" opacity="0.3"/>
+  <line x1="262" y1="215" x2="338" y2="215" stroke="url(#fireGrad)" stroke-width="1" opacity="0.25"/>
+  <circle cx="348" cy="215" r="2" fill="#ff4d00" opacity="0.3"/>
+  <line x1="358" y1="215" x2="470" y2="215" stroke="url(#fireGrad)" stroke-width="1" opacity="0.25"/>
+
+  <!-- Location text -->
+  <text x="300" y="232" font-family="'Arial', sans-serif" font-size="10" fill="#666666" text-anchor="middle" letter-spacing="6">RIO TAVARES • FLORIANÓPOLIS</text>
+
+  <!-- Spark dots scattered -->
+  <circle cx="120" cy="70" r="1.5" fill="#ff6b2b" opacity="0.25"/>
+  <circle cx="480" cy="70" r="1.5" fill="#ff6b2b" opacity="0.25"/>
+  <circle cx="150" cy="140" r="1" fill="#ff4d00" opacity="0.15"/>
+  <circle cx="450" cy="140" r="1" fill="#ff4d00" opacity="0.15"/>
+  <circle cx="110" cy="190" r="1.2" fill="#ff6b2b" opacity="0.2"/>
+  <circle cx="490" cy="190" r="1.2" fill="#ff6b2b" opacity="0.2"/>
+  <circle cx="200" cy="90" r="0.8" fill="#ffcc00" opacity="0.15"/>
+  <circle cx="400" cy="90" r="0.8" fill="#ffcc00" opacity="0.15"/>
+
+  <!-- Distress marks -->
+  <line x1="140" y1="55" x2="145" y2="60" stroke="#ff4d00" stroke-width="0.3" opacity="0.1"/>
+  <line x1="455" y1="55" x2="460" y2="60" stroke="#ff4d00" stroke-width="0.3" opacity="0.1"/>
+  <line x1="170" y1="205" x2="178" y2="208" stroke="#ff4d00" stroke-width="0.3" opacity="0.1"/>
+  <line x1="425" y1="205" x2="430" y2="208" stroke="#ff4d00" stroke-width="0.3" opacity="0.1"/>
+</svg>
